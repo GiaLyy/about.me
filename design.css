@@ -110,6 +110,7 @@
     width: 800px;
     height: 300px;
     margin-left: 50px;
+    border: 2px solid rgb(85, 18, 18);
   }
   .NDung button{
     margin-left: 60px;
