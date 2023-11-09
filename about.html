@@ -12,55 +12,34 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
   <link href="./assets/favicon.ico" rel="icon">
   
-  <title>Title page</title>  
+  <title>About</title>  
 
-<link href="./main.3da94fde.css" rel="stylesheet"></head>
+<link href="./about.css" rel="stylesheet"></head>
 
 <body>
-
-<!-- Add your content of header -->
-
 <header>
-  <nav class="navbar navbar-fixed-top navbar-default">
-    <div class="container">
-        <button type="button" class="navbar-toggle">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
-      <nav class="navbar-fullscreen" id="navbar-middle">
-        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <ul class="navbar-fullscreen-links">
-          <li><a href="./index.html" title="">Home</a></li>
-          <li><a href="#" title="">Project</a></li>
-          <li><a href="./about.html" title="">About me</a></li>
-          <li><a href="#" title="">Components</a></li>
-        </ul>
-
-        <div class="footer-container">
-           
-          <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small></p>
-          <!-- <p class="footer-share-icons">
-              <a href="https://www.twitter.com" class="fa-icon" title="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.linkedin.com" class="fa-icon" title="">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.behance.com" class="fa-icon" title="">
-                  <i class="fa fa-behance" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.vimeo.com" class="fa-icon" title="">
-                  <i class="fa fa-vimeo" aria-hidden="true"></i>
-              </a>
-          </p> -->
-                       
-        </div>
+  <div class="bg-img">
+    <div id="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li class="active"><a href="./about.html">About</a></li>
+        <li>
+          <div class="Lab4">
+            <button class="dropbtn">Lab4
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./requirement.html">Requirement</a>
+              <a href="./design.html">Design</a>
+              <a href="./implement.html">Implement</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
 
 
       </nav> 
@@ -70,52 +49,20 @@
 </header>
 <div class="section-container content-container">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="col-md-6">
-                    <img src="./assets/images/img-profil.jpg" class="img-responsive" alt=""> 
-                </div>
-                <div class="col-md-6">
-                    <h1 class="h2">Gia Ly</h1>
-                    <p>Mã SV: 22130159 <br>
-                       Họ tên: Hứa Nữ Gia Ly</p>
-
-                    <ul class="list-unstyled">
-                        <!-- <li>
-                            <a href="mailto:gialy1501@gmail.com" title="" class="link-like-text">email</a>
-                        </li> -->
-                        <!-- <li>
-                            <a href="https://www.linkedin.com/" title="" class="link-like-text">linkedin</a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" title="" class="link-like-text">facebook</a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" title="" class="link-like-text">instagram</a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" title="" class="link-like-text">twitter</a>
-                        </li>
-                        <li>
-                            <a href="https://www.behance.net" title="" class="link-like-text">behance</a>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
+      <div class="img">
+        <img src="./assets/images/img-profil.jpg" alt=""> 
+      </div>
+      <div class="inform">
+        <h1 class="h2">Thông tin cá nhân</h1>
+        <p>Mã SV: 22130159 <br>
+          Họ tên: Hứa Nữ Gia Ly</p>
+      </div>
     </div>
+  </div>
+</header>
+<div class="section-container content-container">
+    
 </div>
+</body>
 
-
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navbarToggleSidebar();
-      closeMenuBeforeGoingToPage();
-      navActivePage();
-    });
-</script>
- <script type="text/javascript" src="./main.4c6e144e.js"></script></body>
-
-</html>
+</html> 

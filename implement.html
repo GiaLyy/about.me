@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Implement</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="./implement.css">
+    </head>
+
+    <body>
+        <div class="bg-img">
+            <div id="menu">
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li class="active">
+                  <div class="Lab4">
+                    <button class="dropbtn">Lab4
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="./requirement.html">Requirement</a>
+                      <a href="./design.html">Design</a>
+                      <a href="./implement.html">Implement</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="form">
+              <h1>Implement</h1>
+              <h2>QUẢN LÝ PHÒNG Ở KTX</h2>
+              <form action="">
+                <fieldset>
+                  <legend>Thông tin phòng:</legend>
+                  Mã Phòng: <input type="text" name="mã" style="margin-left: 30px;margin-right: 200px;">
+                  Tên Phòng: <input type="text" name="tên" style="margin-right: 200px;">
+                  Loại Phòng: <input type="text" name="loại" >
+                  <br>
+                  Số SV hiện tại: <input type="number" name="Số" style="margin-right: 200px;">
+                  Sức chứa: <input type="number" name="sức chứa" style="margin-left: 10px; margin-right: 200px;">
+                  Giá Phòng: <input type="number" name="giá" style="margin-left: 7px;">
+                  <br>
+                  <label for="id-day" style="margin-right: 50px;">Mã dãy:</label>
+                  <select name="mã" id="id-dãy">
+                    <option value="A1">A1</option>
+                    <option value="">A2</option>
+                    <option value="">B1</option>
+                    <option value="">B2</option>
+                    <option value="">C0</option>
+                    <option value="">C1</option>
+                  </select>
+                  <br>
+                  <button class="mybutton" type="button">Thêm <i class="fa-solid fa-plus"></i></button>
+                  <button class="mybutton" type="button">Sửa <i class="fa-solid fa-pen-to-square"></i></button>
+                  <button class="mybutton" type="button">Xóa <i class="fa-solid fa-trash"></i></button>
+                  <button class="mybutton" type="button">Tìm kiếm <i class="fa-solid fa-magnifying-glass"></i></button>
+                </fieldset>
+              </form>
+              
+              <!-- <form action="">
+                <table>
+                  <tr>
+                    <td>Mã Phòng:</td>
+                    <td><input type="text" name="mã" style="margin-left: 30px;margin-right: 200px;"></td>
+                  </tr>
+                  <tr>
+                    <td>Tên Phòng:</td>
+                    <td><input type="text" name="tên" style="margin-right: 200px;"></td>
+                  </tr>
+                </table>
+              </form> -->
+
+            </div>
+
+          </div>
+        
+    </body>
+</html>

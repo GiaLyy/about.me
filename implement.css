@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-family:sans-serif;
+  }
+  body{
+    margin:0
+  }
+  .bg-img {
+    background-image: url("assets/images/pexels-photo-7130469.webp");
+    min-height: 740px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #menu{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  #menu ul{
+    list-style-type: none;
+    text-align: center;
+    background: black;
+    overflow: hidden;
+    width: 100%;
+    
+    }
+  #menu li{
+    color: white;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+   
+  }
+  #menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  } 
+    
+  #menu a:hover {
+      background: white;
+      color: black;
+  }
+  #menu ul li a:hover{
+    background: white;
+    color: black;
+  }
+  #menu li.active{
+    color: white;
+    background-color: red;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .Lab4 .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  #menu a:hover, .Lab4:hover .dropbtn {
+    background-color: red;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: black;
+  }
+  .Lab4:hover .dropdown-content {
+    display: block;
+  }
+  .form{
+    display: grid;
+    align-items: center;
+    padding: 100px;
+    line-height: 40px;
+  }
+  .form h1{
+    color: rgb(60, 60, 221);
+  }
+  .form h2{
+    text-align: center;
+  }
+  .form button{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(78, 181, 78);
+  }
