@@ -115,10 +115,17 @@
     list-style-type: decimal;
   }
   button{
-    width: 80px;
-    height: 30px;
-    color: black;
-    background-color: white;
+    /* width: 80px;
+    height: 30px; */
+    border: none;
+    color: white;
+    background-color: rgb(61, 61, 197);
     border-radius: 10px;
-    border: 2px solid rgb(78, 181, 78);
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background 1s;
+  }
+  button:hover{
+    background: rgb(43, 122, 43);
+    
   }
