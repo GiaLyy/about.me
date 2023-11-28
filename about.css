@@ -96,10 +96,11 @@
   .Lab4:hover .dropdown-content {
     display: block;
   }
-.container{
+#container{
     display: flex;
     align-items: center;
 }
+
 .img img{
     width: 300px;
     height: auto;
