@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Implement</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="./user-scenario.css">
+    </head>
+
+    <body>
+        <section id="menu">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li>
+                <div class="Lab4">
+                  <button class="dropbtn">Lab4
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./requirement.html">Requirement</a>
+                    <a href="./design.html">Design</a>
+                    <a href="./implement.html">Implement</a>
+                  </div>
+                </div>
+              </li>
+              <li class="active">
+                <div class="Lab5">
+                  <button class="dropbtn">Lab5
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./user-scenario.html">User scenario</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </section>
+        <div class="bg-img">
+            <div class="user-scenario">
+                <header>
+                    <img class="logo" src="./assets/images/Untitled design (1).png" alt="Logo">
+                    <div class="Login">Login</div>
+                    <div class="signin">Sign in your account</div>
+                </header>
+                <main>
+                    <form action="login.php" method="post">
+                        <div class="input-group">
+                            <!-- <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="fa fa-user"></i>
+                              </span>
+                            </div> -->
+                            <input type="text" name="username" placeholder="Username" class="form-control">
+                          </div>
+                        <!-- <i class="fa-solid fa-user"></i>
+                        <input type="text" name="user-name"  placeholder="Username">  -->
+                        <div class="input-group">
+                            <!-- <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="fa fa-lock"></i>
+                              </span>
+                            </div> -->
+                            <input type="password" name="password" placeholder="Password" class="form-control">
+                            <!-- <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </span>
+                            </div> -->
+                        </div>
+                        <!-- <input type="password" name="password" placeholder="Password"> <br> -->
+                        <input type="checkbox" name="remember" value="Remember">Remember me
+                        <a class="sign-up" href="#">Sign up?</a> <br>
+                        <button class="login1" type="submit">Login</button> <br>
+                        <a class="forgot" href="#">Forgot Password?</a>
+                    </form>
+                </main>
+            </div>
+            <section class="add_img">
+                <img src="./assets/images/Screenshot 2023-11-28 225958.png" alt="User Scenario Image">
+                <a href="https://www.figma.com/file/f44tcGxhMNrfxlwclpgo1O/Untitled?type=design&node-id=6%3A37&mode=design&t=dVxakiG3sUtyXgID-1" target="_blank">Link to Figma Design</a>
+            </section>
+
+        </div>
+
+        
+        
+    </body>
+</html>
