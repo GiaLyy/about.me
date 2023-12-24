@@ -27,53 +27,33 @@ body{
   html{
     font-family:sans-serif;
   }
-  /* .bg-img {
+  .bg-img {
     background-image: url("assets/images/pexels-photo-7130469.webp");
     min-height: 740px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  } */
+  }
+  /* Menu */
   #menu{
-    /* position: absolute; */
+    position: absolute;
     float: left;
     margin: 20px;
-    width: 473.35px;
-    height: 42.8px;
   }
-  #menu ul{
-    list-style-type: none;
-    text-align: center;
-    background: black;
+  .topnav {
     overflow: hidden;
-    width: 100%;
-    
-    }
-  #menu li{
-    color: white;
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: -5px;
-   
+    background-color: black;
   }
-  #menu a{
+  .topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: white;
-    display: block;
-  } 
-    
-  #menu a:hover {
-      background: white;
-      color: black;
+    font-size: 17px;
   }
-  #menu ul li a:hover{
-    background: white;
-    color: black;
-  }
-  #menu li.active{
+  .topnav button.active{
     color: white;
     background-color: red;
   }
@@ -81,31 +61,35 @@ body{
     float: left;
     overflow: hidden;
   }
+  .dropdown button{
+    border-radius: 0%;
+    
+  }
   
-  .Lab4 .dropbtn {
-    font-size: 16px;
+  .dropdown .dropbtn {
+    font-size: 16px;  
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; 
-    margin: 0; 
-    width: 120px;
-    height: 46.4px;
+    font-family: inherit;
+    margin: 0;
   }
-  #menu a:hover, .Lab4:hover .dropbtn {
-    background-color: white;
-    color: black;
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
   }
+  
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
+  
   .dropdown-content a {
     float: none;
     color: black;
@@ -114,36 +98,17 @@ body{
     display: block;
     text-align: left;
   }
+  
   .dropdown-content a:hover {
-    background-color: black;
+    background-color: #ddd;
   }
-  .Lab4:hover .dropdown-content {
+  
+  .dropdown:hover .dropdown-content {
     display: block;
   }
-  .Lab5 .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; 
-    margin: 0; 
-    width: 120px;
-    height: 46.4px;
-  }
-  #menu a:hover, .Lab5:hover .dropbtn {
-    background-color: white;
-    color: black;
-  }
-  .Lab5:hover .dropdown-content {
-    display: block;
-  }
+  /* Content */
 .user-scenario{
     position: relative;
-    /* margin-top: 100px;
-    margin-bottom: 200px;
-    margin-left: 500px; */
     top: 100px;
     left: 400px;
     margin-bottom: 140px;
@@ -223,11 +188,6 @@ main{
 input[type="checkbox" i]{
     margin-left: 30px;
 
-}
-i{
-    width: 25px;
-    height: 25px;
-    margin-right: 200px;
 }
 a:-webkit-any-link{
     text-decoration: none;
