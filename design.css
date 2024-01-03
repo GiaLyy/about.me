@@ -9,7 +9,7 @@
     margin:0
   }
   .bg-img {
-    background-image: url("assets/images/pexels-photo-7130469.webp");
+    background-image: url("./images/pexels-photo-7130469.webp");
     min-height: 740px;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,34 +85,28 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .Ndung{
+  .NDung{
     display: grid;
     align-items: center;
-    padding: 200px;
+    padding: 100px;
     line-height: 50px;
   }
-  .Ndung h1{
-    padding-left: 100px;
-    color: rgb(182, 9, 9);
+  .NDung h1{
+    text-align: center;
+    color: rgb(60, 60, 221);
   }
-  .Ndung p{
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .Ndung ul li{
+  .NDung img{
+    width: 800px;
+    height: 300px;
     margin-left: 50px;
-    list-style-type: decimal;
+    border: 2px solid rgb(85, 18, 18);
   }
-  button{
-    border: none;
-    color: white;
-    background-color: rgb(61, 61, 197);
+  .NDung button{
+    margin-left: 60px;
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: white;
     border-radius: 10px;
-    padding: 15px 20px;
-    cursor: pointer;
-    transition: background 1s;
-  }
-  button:hover{
-    background: rgb(43, 122, 43);
-    
+    border: 2px solid rgb(78, 181, 78);
   }

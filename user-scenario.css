@@ -3,7 +3,7 @@ body{
     top: 100px;
     line-height: normal;
     /* background-color: #a4a0a0; */
-    background-image: url("assets/images/pexels-photo-7130469.webp");
+    background-image: url("./images/pexels-photo-7130469.webp");
 }
 :root {
     /* fonts */

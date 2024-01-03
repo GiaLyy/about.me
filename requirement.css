@@ -9,7 +9,7 @@
     margin:0
   }
   .bg-img {
-    background-image: url("assets/images/pexels-photo-7130469.webp");
+    background-image: url("./images/pexels-photo-7130469.webp");
     min-height: 740px;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,31 +85,34 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .form{
+  .Ndung{
     display: grid;
     align-items: center;
-    padding: 100px;
-    line-height: 40px;
+    padding: 200px;
+    line-height: 50px;
   }
-  .form h1{
-    color: rgb(60, 60, 221);
+  .Ndung h1{
+    padding-left: 100px;
+    color: rgb(182, 9, 9);
   }
-  .form h2{
-    text-align: center;
+  .Ndung p{
+    font-size: 24px;
+    font-weight: bold;
   }
-  .form fieldset{
-    padding: 10px 20px;
+  .Ndung ul li{
+    margin-left: 50px;
+    list-style-type: decimal;
   }
-  .form button{
-    margin-left: 10px;
-    padding: 15px 20px;
+  button{
     border: none;
     color: white;
     background-color: rgb(61, 61, 197);
     border-radius: 10px;
+    padding: 15px 20px;
     cursor: pointer;
     transition: background 1s;
   }
-  .form button:hover{
+  button:hover{
     background: rgb(43, 122, 43);
+    
   }
